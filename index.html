@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="refresh" content="15" />
+    
+    <style>
+	body {
+		background-color: black;
+	}
+
+	div {
+		color: white;
+		font-family: "Minion Pro";
+		font-size: 2.5em;
+		text-align: center;
+		position: absolute;
+		top: 45%;
+		left: 0px;
+		right: 0px;
+	}
+	</style>
+</head>
+
+<body>
+<div id="sentence"> 
+	<script type="text/javascript">
+		var A = ["A bird", "A golden key", "A chain", "A man", "A rising tide", "A rolling stone", "A woman's place", "All", "Blood", "Every man", "He","Hell", "Love", "Money", "Music","Nothing", "Possession", "Revenge", "That", "The apple", "The course", "The end", "The female", "The grass", "The hand", "The proof", "The way", "Woman", "A drowning man", "A leopard", "A man", "A miss", "All you need", "Any publicity", "Attack", "Charity", "Curiosity", "Doubt", "Every cloud", "Fact", "History", "Honesty", "Slow and steady", "Nothing", "One hand", "Procrastination", "The early bird", "The longest day", "The road", "Time", "Variety", "Youth"]; 
+		var subject = A[Math.floor(Math.random() * A.length)];
+
+		var B = ["in the hand", "with a hammer", "that glitters", "who fights and runs away", "who lives by the sword", "who sups with the Devil", "of money", "earned by deceit", "which does not kill us", "of true love", "of the species", "that rocks the cradle", "of the pudding", "to a man's heart", "who is is own lawyer", "who hesitates", "to Hell", ""];
+		var phrase = B[Math.floor(Math.random() * B.length)];
+
+		var C = ["is worth", "can open", "is only as strong as", "sees every problem as", "lifts", "gathers", "is in", "is not", "is thicker than", "has", "always stinks from", "may live to fight", "shall die by", "should have", "hath no fury like", "is the root of", "goes by", "does not grow on", "has charms to soothe", "succeeds like", "is nine-tenths of", "makes us", "never falls far from", "justifies", "is more deadly than", "is always greener on", "rules", "is through", "will clutch at", "cannot change", "has a fool for", "is as good as", "is", "bring forth", "begins at", "killed", "is the beginning of", "has", "is stranger than", "favours", "repeats", "will always ask for", "wins", "is certain but", "washes", "is the thief of", "catches", "must have", "is paved with", "is the spice of", "cannot get blood out of", "cannot judge a book by", "cannot win", "is wasted on"];
+		var action = C[Math.floor(Math.random() * C.length)];
+
+		var D = ["two in the bush", "any door", "its weakest link", "a nail", "all boats", "no moss", "the home", "gold", "water", "his price", "another day", "the sword", "a long spoon", "a woman scorned", "all kinds of evil", "deceit", "trees", "the savage beast", "success", "the law", "the tree", "the means", "the male", "the other side of the fence", "the world", "the eating", "his stomach", "both good and evil", "a straw", "its spots", "his client", "a mile", "love", "good publicity", "May flowers", "defense", "the cat", "wisdom", "a silver lining", "fiction", "the brave", "itself", "the best policy", "a glass of milk", "the bottom of the tree", "the race", "death and taxes", "the other", "time", "the worm", "an end", "good intentions", "money", "life", "a stone", "its cover", "them all", "the young"];
+		var object = D[Math.floor(Math.random() * D.length)];
+
+		document.write(subject + " " + phrase + " " + action + " " + object + ".");
+	</script>
+</div>    
+</body>
+</html>
